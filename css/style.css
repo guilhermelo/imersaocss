@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://brunalofego.com.br/wp-content/uploads/2017/02/gradiente.png');
+    /* define o background com altura de 100% do viewport e largura automática */
+    background-size: auto 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /* mantem a altura do viewport */
+    height: 100vh;
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.subtitle, .title {
+    color: whitesmoke;
+    text-align: center;
+}
